@@ -9,7 +9,11 @@ body{
      background-image: url(developer-portfolio-img/top-banner.png);
      background-repeat: no-repeat;
  }
- .conteinar {width: 80%;padding: 20px;}
+ .conteinar {
+     width: 85%;
+     padding: 20px;
+     display: flex;
+}
  h2{
      font-size: 50px;
  }
@@ -21,8 +25,14 @@ h3 {
     margin: 20px 0px;
 }
 
-p {
-    color: #4e4c4c;
+.half-widh h2 {
+    margin-bottom: 25px;
+}
+
+
+.half-widh p {
+    margin-bottom: 35px;
+    color: #787877;
     font-weight: 500;
 }
 
@@ -33,4 +43,28 @@ a.anchor-button {
     padding: 10px 30px;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
+}
+a.anchor-button:hover{
+    background-image: linear-gradient(150deg, hsl(44, 100%, 51%), #f78f07);
+}
+.half-widh {
+    width: 50%;
+    overflow: hidden;
+    margin: 0px 35px;
+}
+
+.half-widh img {
+    width: 100%;
+}
+.dream-area{
+    background-image: url(developer-portfolio-img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+footer p {
+    text-align: center;
+    color: #787877;
+    font-weight: 500;
 }
